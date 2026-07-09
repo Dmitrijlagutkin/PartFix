@@ -8,9 +8,9 @@ import { routing } from "@/i18n/routing";
 export const siteConfig = {
   name: "PartFix",
   legalName: "PartFix",
-  domain: "partfix.eu",
-  // Falls back to the production domain so builds work without env config.
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://partfix.eu").replace(/\/$/, ""),
+  domain: "part-fix.vercel.app",
+  // Falls back to the current production domain so builds work without env config.
+  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://part-fix.vercel.app").replace(/\/$/, ""),
   defaultLocale: routing.defaultLocale,
   locales: routing.locales,
   contact: {

@@ -42,6 +42,10 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
   const { locale } = await params;
   const t = await getTranslations({ locale: locale as Locale, namespace: "Metadata" });
 
+  // Set GOOGLE_SITE_VERIFICATION to the token from Search Console's
+  // "HTML tag" method to render the <meta name="google-site-verification">.
+  const googleVerification = process.env.GOOGLE_SITE_VERIFICATION;
+
   return {
     metadataBase: new URL(siteConfig.url),
     title: {
@@ -55,6 +59,7 @@ export async function generateMetadata({ params }: LayoutProps): Promise<Metadat
       follow: true,
       googleBot: { index: true, follow: true, "max-image-preview": "large" },
     },
+    ...(googleVerification ? { verification: { google: googleVerification } } : {}),
   };
 }
 
