@@ -14,10 +14,10 @@ export const siteConfig = {
   defaultLocale: routing.defaultLocale,
   locales: routing.locales,
   contact: {
-    email: "hello@partfix.eu",
+    email: "dmitrijlagutkin@gmail.com",
     // Digits only, international format (no "+", no spaces) for wa.me links.
-    whatsapp: "393000000000",
-    telegram: "partfix",
+    whatsapp: "393792962006",
+    telegram: "Dmitry_Lagutkin",
   },
   social: {
     instagram: "https://instagram.com/partfix",
