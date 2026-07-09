@@ -10,6 +10,7 @@ const OG_LOCALES: Record<Locale, string> = {
   de: "de_DE",
   fr: "fr_FR",
   es: "es_ES",
+  uk: "uk_UA",
 };
 
 type BuildMetadataArgs = {

@@ -6,7 +6,7 @@ import { defineRouting } from "next-intl/routing";
  * gets an explicit prefix (`/en`, `/it`, …) which is the correct choice for SEO.
  */
 export const routing = defineRouting({
-  locales: ["en", "it", "de", "fr", "es"],
+  locales: ["en", "it", "de", "fr", "es", "uk"],
   defaultLocale: "en",
   localePrefix: "always",
 });

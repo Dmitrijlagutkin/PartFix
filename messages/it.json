@@ -34,7 +34,7 @@
   },
   "LocaleSwitcher": {
     "label": "Cambia lingua",
-    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} uk {Українська} other {{locale}}}"
   },
   "Hero": {
     "badge": "Progettazione e stampa 3D in tutta Europa",

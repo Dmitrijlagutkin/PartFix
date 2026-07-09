@@ -34,7 +34,7 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} uk {Українська} other {{locale}}}"
   },
   "Hero": {
     "badge": "3D-Konstruktion und -Druck in ganz Europa",
