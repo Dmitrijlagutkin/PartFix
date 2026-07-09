@@ -1,0 +1,228 @@
+{
+  "Metadata": {
+    "defaultTitle": "PartFix — Piezas de repuesto personalizadas impresas en 3D",
+    "defaultDescription": "Recreamos piezas de plástico imposibles de encontrar a partir de tus fotos, con diseño y fabricación 3D profesional.",
+    "home": {
+      "title": "Piezas de repuesto personalizadas impresas en 3D",
+      "description": "¿Se te ha roto una pieza de plástico imposible de encontrar? Envíanos fotos y la recreamos con modelado e impresión 3D profesional. Envíos a toda Europa."
+    },
+    "howItWorks": {
+      "title": "Cómo funciona",
+      "description": "De la foto de tu pieza rota al repuesto impreso en tu puerta: este es nuestro proceso en cinco pasos."
+    },
+    "contact": {
+      "title": "Contacto",
+      "description": "Solicita un presupuesto gratuito por correo, WhatsApp o Telegram. Envíanos una foto de tu pieza rota y nos encargamos del resto."
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Cambiar al tema oscuro",
+    "toLight": "Cambiar al tema claro"
+  },
+  "A11y": {
+    "skipToContent": "Saltar al contenido"
+  },
+  "Nav": {
+    "primary": "Principal",
+    "brand": "PartFix — inicio",
+    "home": "Inicio",
+    "howItWorks": "Cómo funciona",
+    "contact": "Contacto",
+    "getQuote": "Presupuesto gratis",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+  },
+  "Hero": {
+    "badge": "Diseño e impresión 3D en toda Europa",
+    "title": "¿Pieza de plástico rota?",
+    "subtitle": "Recreamos piezas de repuesto imposibles de encontrar a partir de fotos, con diseño y fabricación 3D profesional.",
+    "ctaPrimary": "Presupuesto gratis",
+    "ctaSecondary": "Chatea por WhatsApp",
+    "trust": "Sin cuenta · Presupuesto gratis · Envíos a toda la UE",
+    "visualScan": "Tu foto",
+    "visualModel": "Modelo 3D"
+  },
+  "Problem": {
+    "eyebrow": "El problema",
+    "title": "Cuando una pequeña pieza rota lo estropea todo",
+    "description": "Un solo clip, engranaje o soporte agrietado puede dejar inservible un electrodoméstico, el interior de un coche o un dispositivo, y el fabricante dejó de vender el repuesto hace años.",
+    "points": [
+      {
+        "title": "Descatalogada y agotada",
+        "description": "La pieza ya no se fabrica, el modelo es obsoleto o nunca se vendió por separado."
+      },
+      {
+        "title": "Búsqueda interminable",
+        "description": "Semanas perdidas en foros y marketplaces buscando un repuesto que simplemente ya no existe."
+      },
+      {
+        "title": "Obligado a reemplazarlo todo",
+        "description": "Por un componente diminuto te dicen que tires un producto en perfecto estado y compres uno nuevo."
+      }
+    ]
+  },
+  "HowItWorksPreview": {
+    "imageAlt": "Una impresora 3D fabrica piezas de repuesto de plástico naranja sobre su base",
+    "eyebrow": "Cómo funciona",
+    "title": "De la foto a la pieza impresa en cinco pasos",
+    "description": "Un proceso sencillo y transparente. Tú envías unas fotos y nosotros nos encargamos de la ingeniería y la fabricación.",
+    "cta": "Ver el proceso completo"
+  },
+  "Process": {
+    "stepLabel": "Paso {number}",
+    "steps": [
+      {
+        "title": "Envía fotos de tu pieza rota",
+        "description": "Haz varias fotos nítidas desde distintos ángulos, incluyendo la zona rota y cómo se conecta con el resto."
+      },
+      {
+        "title": "Facilita las medidas",
+        "description": "Comparte las dimensiones clave con una regla o un calibre. Te indicamos exactamente qué necesitamos para un ajuste preciso."
+      },
+      {
+        "title": "Recreamos el modelo 3D",
+        "description": "Nuestros ingenieros reconstruyen la pieza como un modelo CAD 3D preciso y fabricable, y confirman los detalles contigo."
+      },
+      {
+        "title": "Imprimimos el repuesto",
+        "description": "Imprimimos tu pieza en 3D en un material resistente elegido por su solidez, resistencia al calor y uso previsto."
+      },
+      {
+        "title": "Te lo enviamos",
+        "description": "Tu pieza de repuesto terminada se embala con cuidado y se envía a tu domicilio en cualquier lugar de Europa."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Servicios",
+    "title": "Todo lo necesario para recuperar una pieza",
+    "description": "Un servicio completo desde la primera foto hasta el componente terminado, sin necesidad de conocimientos de CAD ni equipo por tu parte.",
+    "items": [
+      {
+        "title": "Ingeniería inversa y modelado 3D",
+        "description": "Reconstruimos modelos CAD precisos y fabricables a partir de fotos y medidas de tu pieza original."
+      },
+      {
+        "title": "Mejoras de diseño",
+        "description": "Donde el original fallaba, reforzamos los puntos débiles para que el repuesto dure más que la pieza que sustituye."
+      },
+      {
+        "title": "Impresión 3D profesional",
+        "description": "Fabricación en materiales técnicos resistentes, con el acabado y las tolerancias adecuadas para un ajuste correcto."
+      },
+      {
+        "title": "Guía de medición",
+        "description": "Instrucciones claras para medir y obtener las dimensiones correctas a la primera, sin conjeturas."
+      }
+    ]
+  },
+  "WhyUs": {
+    "imageAlt": "Una impresora 3D en funcionamiento en un taller bien equipado",
+    "eyebrow": "Por qué elegirnos",
+    "title": "Un trabajo en el que puedes confiar",
+    "description": "Tratamos cada pieza como un pequeño proyecto de ingeniería: precisa, duradera y a un precio justo.",
+    "items": [
+      {
+        "title": "Ingeniería de precisión",
+        "description": "Reconstrucción CAD exacta para piezas que encajan y funcionan de verdad."
+      },
+      {
+        "title": "Entrega rápida",
+        "description": "La mayoría de los proyectos pasan del presupuesto a la pieza enviada en pocos días."
+      },
+      {
+        "title": "Precios transparentes",
+        "description": "Un presupuesto claro y gratuito por adelantado, sin sorpresas ni compromiso."
+      },
+      {
+        "title": "Envíos a toda Europa",
+        "description": "Entregado en tu domicilio en la UE, cuidadosamente embalado."
+      },
+      {
+        "title": "Materiales duraderos",
+        "description": "Plásticos técnicos seleccionados por su resistencia, tolerancia al calor y durabilidad."
+      },
+      {
+        "title": "Menos residuos",
+        "description": "Reparar en lugar de reemplazar: mantén en uso los productos que ya tienes."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes",
+    "description": "Todo lo que necesitas saber antes de enviarnos tu pieza rota.",
+    "items": [
+      {
+        "question": "¿Qué tipo de piezas podéis recrear?",
+        "answer": "Componentes de plástico pequeños y medianos: clips, engranajes, soportes, mandos, carcasas, bisagras y piezas similares para electrodomésticos, coches, electrónica y hogar."
+      },
+      {
+        "question": "¿Cuánto cuesta?",
+        "answer": "Depende de la complejidad y el tamaño de la pieza. Envíanos fotos y te daremos un presupuesto gratuito y sin compromiso antes de empezar cualquier trabajo."
+      },
+      {
+        "question": "¿Qué fotos y medidas necesitáis?",
+        "answer": "Fotos nítidas desde varios ángulos y las dimensiones principales medidas con regla o calibre. Tras tu contacto te diremos exactamente qué capturar."
+      },
+      {
+        "question": "¿Cuánto tarda?",
+        "answer": "La mayoría de las piezas se modelan, imprimen y envían en pocos días, según la complejidad y nuestra cola de trabajo."
+      },
+      {
+        "question": "¿Será tan resistente como la original?",
+        "answer": "Seleccionamos materiales técnicos duraderos y podemos reforzar las zonas débiles, así que los repuestos suelen ser tan resistentes como el original, o más."
+      },
+      {
+        "question": "¿Enviáis fuera de mi país?",
+        "answer": "Sí. Enviamos piezas de repuesto a clientes de toda la Unión Europea."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Devuelve la vida a tu pieza",
+    "subtitle": "Envíanos hoy una foto de tu pieza rota y recibe un presupuesto gratuito, sin cuenta y sin compromiso.",
+    "primary": "Presupuesto gratis",
+    "secondary": "Chatea por WhatsApp"
+  },
+  "Footer": {
+    "tagline": "Recreamos piezas de plástico imposibles de encontrar a partir de tus fotos, con diseño y fabricación 3D profesional.",
+    "navTitle": "Navegación",
+    "contactTitle": "Contacto",
+    "copyright": "© {year} {name}. Todos los derechos reservados."
+  },
+  "HowItWorksPage": {
+    "eyebrow": "El proceso",
+    "title": "Cómo funciona",
+    "description": "De la foto de tu pieza rota al repuesto impreso en tu puerta: cinco pasos sencillos."
+  },
+  "ContactPage": {
+    "eyebrow": "Contacto",
+    "title": "Recreemos tu pieza",
+    "description": "Envíanos una foto de tu pieza rota por el canal que prefieras y te responderemos con los siguientes pasos y un presupuesto gratuito.",
+    "responseNote": "Normalmente respondemos en un día laborable. Incluye fotos nítidas y, si es posible, las medidas principales.",
+    "methods": {
+      "email": {
+        "label": "Correo",
+        "description": "Ideal para mensajes detallados y adjuntar varias fotos."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "La forma más rápida de compartir fotos y hablar directamente con nosotros."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "description": "¿Prefieres Telegram? Escríbenos y envía tus fotos allí."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscas no existe o puede haberse movido.",
+    "cta": "Volver al inicio"
+  }
+}

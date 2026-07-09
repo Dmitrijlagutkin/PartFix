@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens (Tailwind v4 `@theme`). These become utilities automatically,
+ * e.g. `--color-brand-600` -> `bg-brand-600`, `text-brand-600`, etc.
+ * Palette: near-black ink, warm neutral grays, a refined indigo accent.
+ */
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --color-brand-50: oklch(0.97 0.014 275);
+  --color-brand-100: oklch(0.94 0.03 275);
+  --color-brand-200: oklch(0.89 0.06 275);
+  --color-brand-300: oklch(0.81 0.1 275);
+  --color-brand-400: oklch(0.71 0.15 275);
+  --color-brand-500: oklch(0.62 0.19 275);
+  --color-brand-600: oklch(0.55 0.21 275);
+  --color-brand-700: oklch(0.48 0.2 275);
+  --color-brand-800: oklch(0.41 0.16 275);
+  --color-brand-900: oklch(0.35 0.12 275);
+
+  /* Always-dark surface for inverted panels (CTA band, secondary button),
+   * so they keep white text and read correctly in both light and dark themes. */
+  --color-panel: oklch(0.22 0.006 285);
+
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.75rem;
+
+  --shadow-soft: 0 1px 2px 0 rgb(16 18 27 / 0.04), 0 8px 24px -8px rgb(16 18 27 / 0.08);
+  --shadow-card: 0 1px 3px 0 rgb(16 18 27 / 0.06), 0 12px 32px -12px rgb(16 18 27 / 0.1);
+}
+
+/*
+ * Semantic colors resolve from per-theme custom properties defined below, so
+ * they respond to the active theme at runtime. `inline` keeps the utility
+ * (e.g. `text-ink`) pointing at `var(--ink)` rather than a frozen value.
+ */
+@theme inline {
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+
+  --color-surface: var(--surface);
+  --color-surface-subtle: var(--surface-subtle);
+  --color-border: var(--border);
+}
+
+/*
+ * Dark is the default theme (applies when no `data-theme` is set).
+ * A soft, slightly-blue slate — not pure black — to keep it easy on the eyes.
+ */
+:root {
+  color-scheme: dark;
+
+  --ink: oklch(0.95 0.005 264);
+  --muted: oklch(0.74 0.012 264);
+
+  --surface: oklch(0.25 0.01 264);
+  --surface-subtle: oklch(0.29 0.012 264);
+  --border: oklch(0.37 0.012 264);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --ink: oklch(0.21 0.006 285);
+  --muted: oklch(0.55 0.008 285);
+
+  --surface: oklch(1 0 0);
+  --surface-subtle: oklch(0.985 0.002 285);
+  --border: oklch(0.922 0.004 285);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--surface);
+    color: var(--ink);
+    font-feature-settings: "cv11", "ss01";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Consistent, visible focus ring for keyboard users across the app. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "Metadata": {
+    "defaultTitle": "PartFix — Individuelle 3D-gedruckte Ersatzteile",
+    "defaultDescription": "Wir stellen unauffindbare Kunststoff-Ersatzteile anhand Ihrer Fotos nach — mit professioneller 3D-Konstruktion und Fertigung.",
+    "home": {
+      "title": "Individuelle 3D-gedruckte Ersatzteile",
+      "description": "Ein Kunststoffteil kaputt, das es nirgends zu kaufen gibt? Senden Sie uns Fotos und wir stellen es mit professioneller 3D-Modellierung und -Druck nach. Versand in ganz Europa."
+    },
+    "howItWorks": {
+      "title": "So funktioniert es",
+      "description": "Vom Foto Ihres kaputten Teils bis zum gedruckten Ersatz vor Ihrer Tür — hier ist unser Prozess in fünf Schritten."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Fordern Sie ein kostenloses Angebot per E-Mail, WhatsApp oder Telegram an. Senden Sie uns ein Foto Ihres kaputten Teils und wir kümmern uns um den Rest."
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Zum dunklen Design wechseln",
+    "toLight": "Zum hellen Design wechseln"
+  },
+  "A11y": {
+    "skipToContent": "Zum Inhalt springen"
+  },
+  "Nav": {
+    "primary": "Hauptnavigation",
+    "brand": "PartFix — Startseite",
+    "home": "Start",
+    "howItWorks": "So funktioniert es",
+    "contact": "Kontakt",
+    "getQuote": "Kostenloses Angebot",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+  },
+  "Hero": {
+    "badge": "3D-Konstruktion und -Druck in ganz Europa",
+    "title": "Kunststoffteil kaputt?",
+    "subtitle": "Wir stellen unauffindbare Ersatzteile anhand von Fotos nach — mit professioneller 3D-Konstruktion und Fertigung.",
+    "ctaPrimary": "Kostenloses Angebot",
+    "ctaSecondary": "Auf WhatsApp schreiben",
+    "trust": "Kein Konto nötig · Kostenloses Angebot · Versand in der gesamten EU",
+    "visualScan": "Ihr Foto",
+    "visualModel": "3D-Modell"
+  },
+  "Problem": {
+    "eyebrow": "Das Problem",
+    "title": "Wenn ein kleines kaputtes Teil das Ganze ruiniert",
+    "description": "Ein einziger gerissener Clip, ein Zahnrad oder eine Halterung kann ein Gerät, einen Fahrzeuginnenraum oder ein Produkt unbrauchbar machen — und der Hersteller hat das Ersatzteil vor Jahren aus dem Programm genommen.",
+    "points": [
+      {
+        "title": "Eingestellt & nicht lieferbar",
+        "description": "Das Teil wird nicht mehr produziert, das Modell ist veraltet oder wurde nie einzeln verkauft."
+      },
+      {
+        "title": "Endlose Suche",
+        "description": "Wochenlange Suche in Foren und auf Marktplätzen nach einem Ersatzteil, das es schlicht nicht mehr gibt."
+      },
+      {
+        "title": "Alles ersetzen müssen",
+        "description": "Wegen eines winzigen Bauteils sollen Sie ein einwandfreies Produkt wegwerfen und ein neues kaufen."
+      }
+    ]
+  },
+  "HowItWorksPreview": {
+    "imageAlt": "Ein 3D-Drucker fertigt orangefarbene Kunststoff-Ersatzteile auf der Druckplatte",
+    "eyebrow": "So funktioniert es",
+    "title": "Vom Foto zum gedruckten Teil in fünf Schritten",
+    "description": "Ein einfacher, transparenter Ablauf. Sie senden ein paar Fotos, wir übernehmen Konstruktion und Fertigung.",
+    "cta": "Den gesamten Ablauf ansehen"
+  },
+  "Process": {
+    "stepLabel": "Schritt {number}",
+    "steps": [
+      {
+        "title": "Fotos Ihres kaputten Teils senden",
+        "description": "Machen Sie einige scharfe Fotos aus verschiedenen Winkeln — inklusive der Bruchstelle und der Verbindung zum Rest."
+      },
+      {
+        "title": "Maße angeben",
+        "description": "Teilen Sie die wichtigsten Maße mit Lineal oder Messschieber. Wir sagen Ihnen genau, was wir für eine präzise Passform brauchen."
+      },
+      {
+        "title": "Wir erstellen das 3D-Modell",
+        "description": "Unsere Ingenieure rekonstruieren das Teil als präzises, fertigbares 3D-CAD-Modell und bestätigen die Details mit Ihnen."
+      },
+      {
+        "title": "Wir drucken den Ersatz",
+        "description": "Wir drucken Ihr Teil in einem robusten Material, das nach Festigkeit, Hitzebeständigkeit und Einsatzzweck ausgewählt wird."
+      },
+      {
+        "title": "Wir versenden es",
+        "description": "Ihr fertiges Ersatzteil wird sorgfältig verpackt und in ganz Europa zu Ihnen nach Hause versandt."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Leistungen",
+    "title": "Alles, um ein Teil zurückzubringen",
+    "description": "Ein kompletter Service vom ersten Foto bis zum fertigen Bauteil — ganz ohne CAD-Kenntnisse oder Ausrüstung auf Ihrer Seite.",
+    "items": [
+      {
+        "title": "Reverse Engineering & 3D-Modellierung",
+        "description": "Wir rekonstruieren präzise, fertigbare CAD-Modelle aus Fotos und Maßen Ihres Originalteils."
+      },
+      {
+        "title": "Konstruktive Verbesserungen",
+        "description": "Wo das Original versagte, verstärken wir Schwachstellen, damit der Ersatz länger hält als das ersetzte Teil."
+      },
+      {
+        "title": "Professioneller 3D-Druck",
+        "description": "Fertigung in robusten technischen Materialien, mit passender Oberfläche und Toleranz für eine korrekte Passform."
+      },
+      {
+        "title": "Hilfe beim Messen",
+        "description": "Klare Anleitung zum Messen, damit die Maße gleich beim ersten Mal stimmen — ohne Rätselraten."
+      }
+    ]
+  },
+  "WhyUs": {
+    "imageAlt": "Ein 3D-Drucker bei der Arbeit in einer gut ausgestatteten Werkstatt",
+    "eyebrow": "Warum wir",
+    "title": "Handwerk, auf das Sie sich verlassen können",
+    "description": "Wir behandeln jedes Teil wie ein kleines Ingenieurprojekt — präzise, langlebig und fair im Preis.",
+    "items": [
+      {
+        "title": "Präzise Konstruktion",
+        "description": "Genaue CAD-Rekonstruktion für Teile, die wirklich passen und funktionieren."
+      },
+      {
+        "title": "Schnelle Bearbeitung",
+        "description": "Die meisten Projekte gehen in wenigen Tagen vom Angebot zum versandten Teil."
+      },
+      {
+        "title": "Transparente Preise",
+        "description": "Ein klares, kostenloses Angebot vorab — keine Überraschungen, keine Verpflichtung."
+      },
+      {
+        "title": "Versand in ganz Europa",
+        "description": "Sorgfältig verpackt zu Ihnen nach Hause in der EU geliefert."
+      },
+      {
+        "title": "Langlebige Materialien",
+        "description": "Technische Kunststoffe, ausgewählt nach Festigkeit, Hitzebeständigkeit und Langlebigkeit."
+      },
+      {
+        "title": "Weniger Abfall",
+        "description": "Reparieren statt ersetzen — halten Sie Produkte, die Sie bereits besitzen, in Betrieb."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen",
+    "description": "Alles, was Sie wissen müssen, bevor Sie uns Ihr kaputtes Teil senden.",
+    "items": [
+      {
+        "question": "Welche Teile können Sie nachbauen?",
+        "answer": "Kleine und mittlere Kunststoffbauteile — Clips, Zahnräder, Halterungen, Knöpfe, Gehäuse, Scharniere und ähnliche Teile für Geräte, Autos, Elektronik und Haushalt."
+      },
+      {
+        "question": "Was kostet das?",
+        "answer": "Das hängt von Komplexität und Größe des Teils ab. Senden Sie uns Fotos und wir erstellen ein kostenloses, unverbindliches Angebot, bevor die Arbeit beginnt."
+      },
+      {
+        "question": "Welche Fotos und Maße brauchen Sie?",
+        "answer": "Scharfe Fotos aus mehreren Winkeln sowie die Hauptmaße, gemessen mit Lineal oder Messschieber. Nach Ihrer Anfrage sagen wir Ihnen genau, was aufzunehmen ist."
+      },
+      {
+        "question": "Wie lange dauert es?",
+        "answer": "Die meisten Teile werden je nach Komplexität und aktueller Auslastung innerhalb weniger Tage modelliert, gedruckt und versandt."
+      },
+      {
+        "question": "Ist das Teil so stabil wie das Original?",
+        "answer": "Wir wählen langlebige technische Materialien und können Schwachstellen verstärken, sodass Ersatzteile oft so stabil wie — oder stabiler als — das Original sind."
+      },
+      {
+        "question": "Versenden Sie auch ins Ausland?",
+        "answer": "Ja. Wir versenden Ersatzteile an Kundinnen und Kunden in der gesamten Europäischen Union."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Erwecken Sie Ihr Teil zu neuem Leben",
+    "subtitle": "Senden Sie uns noch heute ein Foto Ihres kaputten Teils und erhalten Sie ein kostenloses Angebot — ohne Konto, ohne Verpflichtung.",
+    "primary": "Kostenloses Angebot",
+    "secondary": "Auf WhatsApp schreiben"
+  },
+  "Footer": {
+    "tagline": "Wir stellen unauffindbare Kunststoff-Ersatzteile anhand Ihrer Fotos nach — mit professioneller 3D-Konstruktion und Fertigung.",
+    "navTitle": "Navigation",
+    "contactTitle": "Kontakt",
+    "copyright": "© {year} {name}. Alle Rechte vorbehalten."
+  },
+  "HowItWorksPage": {
+    "eyebrow": "Der Ablauf",
+    "title": "So funktioniert es",
+    "description": "Vom Foto Ihres kaputten Teils bis zum gedruckten Ersatz vor Ihrer Tür — fünf einfache Schritte."
+  },
+  "ContactPage": {
+    "eyebrow": "Kontakt",
+    "title": "Lassen Sie uns Ihr Teil nachbauen",
+    "description": "Senden Sie uns ein Foto Ihres kaputten Teils über Ihren bevorzugten Kanal und wir antworten mit den nächsten Schritten und einem kostenlosen Angebot.",
+    "responseNote": "Wir antworten in der Regel innerhalb eines Werktags. Bitte fügen Sie scharfe Fotos und, wenn möglich, die Hauptmaße bei.",
+    "methods": {
+      "email": {
+        "label": "E-Mail",
+        "description": "Ideal für ausführliche Nachrichten und das Anhängen mehrerer Fotos."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Der schnellste Weg, Fotos zu teilen und direkt mit uns zu chatten."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "description": "Lieber Telegram? Schreiben Sie uns und senden Sie Ihre Fotos dorthin."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht oder wurde möglicherweise verschoben.",
+    "cta": "Zurück zur Startseite"
+  }
+}

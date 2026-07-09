@@ -1,0 +1,228 @@
+{
+  "Metadata": {
+    "defaultTitle": "PartFix — Custom 3D-printed replacement parts",
+    "defaultDescription": "We recreate impossible-to-find plastic replacement parts from your photos using professional 3D design and manufacturing.",
+    "home": {
+      "title": "Custom 3D-printed replacement parts",
+      "description": "Broken a plastic part you can't buy anywhere? Send us photos and we recreate it with professional 3D modeling and printing. Shipped across Europe."
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "description": "From a photo of your broken part to a printed replacement at your door — here is our five-step process."
+    },
+    "contact": {
+      "title": "Contact us",
+      "description": "Get a free quote by email, WhatsApp or Telegram. Send us a photo of your broken part and we'll take it from there."
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Switch to dark theme",
+    "toLight": "Switch to light theme"
+  },
+  "A11y": {
+    "skipToContent": "Skip to content"
+  },
+  "Nav": {
+    "primary": "Primary",
+    "brand": "PartFix — home",
+    "home": "Home",
+    "howItWorks": "How it works",
+    "contact": "Contact",
+    "getQuote": "Get a Free Quote",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+  },
+  "Hero": {
+    "badge": "3D design & printing across Europe",
+    "title": "Broken plastic part?",
+    "subtitle": "We recreate impossible-to-find replacement parts from photos using professional 3D design and manufacturing.",
+    "ctaPrimary": "Get a Free Quote",
+    "ctaSecondary": "Chat on WhatsApp",
+    "trust": "No account needed · Free quote · Ships across the EU",
+    "visualScan": "Your photo",
+    "visualModel": "3D model"
+  },
+  "Problem": {
+    "eyebrow": "The problem",
+    "title": "When a small broken part ruins the whole thing",
+    "description": "A single cracked clip, gear or bracket can make an appliance, car interior or device unusable — and the manufacturer stopped selling the spare years ago.",
+    "points": [
+      {
+        "title": "Discontinued & out of stock",
+        "description": "The part is no longer produced, the model is obsolete, or it was never sold separately in the first place."
+      },
+      {
+        "title": "Endless searching",
+        "description": "Weeks lost on forums and marketplaces looking for a spare that simply doesn't exist anymore."
+      },
+      {
+        "title": "Forced to replace everything",
+        "description": "Without one tiny component you're told to throw away a perfectly good product and buy a new one."
+      }
+    ]
+  },
+  "HowItWorksPreview": {
+    "imageAlt": "A 3D printer producing orange plastic replacement parts on its build plate",
+    "eyebrow": "How it works",
+    "title": "From photo to printed part in five steps",
+    "description": "A simple, transparent process. You send a few photos, we handle the engineering and manufacturing.",
+    "cta": "See the full process"
+  },
+  "Process": {
+    "stepLabel": "Step {number}",
+    "steps": [
+      {
+        "title": "Send photos of your broken part",
+        "description": "Take a few clear photos from different angles — including the broken area and how it connects to the rest."
+      },
+      {
+        "title": "Provide measurements",
+        "description": "Share the key dimensions with a ruler or caliper. We'll guide you on exactly what we need for a precise fit."
+      },
+      {
+        "title": "We recreate the 3D model",
+        "description": "Our engineers rebuild the part as a precise, manufacturable 3D CAD model and confirm the details with you."
+      },
+      {
+        "title": "We print the replacement",
+        "description": "We 3D print your part in a durable material chosen for strength, heat and fit for its purpose."
+      },
+      {
+        "title": "We ship it to you",
+        "description": "Your finished replacement part is carefully packed and shipped to your door anywhere in Europe."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "Everything needed to bring a part back",
+    "description": "A complete service from first photo to finished component — no CAD skills or equipment required on your side.",
+    "items": [
+      {
+        "title": "Reverse engineering & 3D modeling",
+        "description": "We reconstruct accurate, manufacturable CAD models from photos and measurements of your original part."
+      },
+      {
+        "title": "Design improvements",
+        "description": "Where the original failed, we can reinforce weak points so the replacement lasts longer than the part it replaces."
+      },
+      {
+        "title": "Professional 3D printing",
+        "description": "Production in durable technical materials, with the right finish and tolerances for a proper fit."
+      },
+      {
+        "title": "Measurement guidance",
+        "description": "Clear instructions on how to measure so we get dimensions right the first time, with no guesswork."
+      }
+    ]
+  },
+  "WhyUs": {
+    "imageAlt": "A 3D printer at work in a well-equipped workshop",
+    "eyebrow": "Why choose us",
+    "title": "Craftsmanship you can rely on",
+    "description": "We treat every part as a small engineering project — precise, durable and fairly priced.",
+    "items": [
+      {
+        "title": "Precision engineering",
+        "description": "Accurate CAD reconstruction for parts that actually fit and function."
+      },
+      {
+        "title": "Fast turnaround",
+        "description": "Most projects move from quote to shipped part in a matter of days."
+      },
+      {
+        "title": "Transparent pricing",
+        "description": "A clear, free quote up front — no surprises and no obligation."
+      },
+      {
+        "title": "Shipping across Europe",
+        "description": "Delivered to your door in the EU, carefully packaged."
+      },
+      {
+        "title": "Durable materials",
+        "description": "Technical plastics selected for strength, heat resistance and longevity."
+      },
+      {
+        "title": "Less waste",
+        "description": "Repair instead of replace — keep the products you already own in service."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "description": "Everything you need to know before sending us your broken part.",
+    "items": [
+      {
+        "question": "What kind of parts can you recreate?",
+        "answer": "Small and medium plastic components — clips, gears, brackets, knobs, housings, hinges and similar parts for appliances, cars, electronics and household items."
+      },
+      {
+        "question": "How much does it cost?",
+        "answer": "It depends on the complexity and size of the part. Send us photos and we'll give you a free, no-obligation quote before any work begins."
+      },
+      {
+        "question": "What photos and measurements do you need?",
+        "answer": "Clear photos from several angles plus the main dimensions measured with a ruler or caliper. After you contact us we'll tell you exactly what to capture."
+      },
+      {
+        "question": "How long does it take?",
+        "answer": "Most parts are modeled, printed and shipped within a few days, depending on complexity and our current queue."
+      },
+      {
+        "question": "Will the part be as strong as the original?",
+        "answer": "We select durable technical materials and can reinforce weak areas, so replacements are often as strong as — or stronger than — the original."
+      },
+      {
+        "question": "Do you ship outside my country?",
+        "answer": "Yes. We ship replacement parts to customers across the European Union."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Get your part back to life",
+    "subtitle": "Send us a photo of your broken part today and receive a free quote — no account, no commitment.",
+    "primary": "Get a Free Quote",
+    "secondary": "Chat on WhatsApp"
+  },
+  "Footer": {
+    "tagline": "We recreate impossible-to-find plastic replacement parts from your photos using professional 3D design and manufacturing.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "© {year} {name}. All rights reserved."
+  },
+  "HowItWorksPage": {
+    "eyebrow": "The process",
+    "title": "How it works",
+    "description": "From a photo of your broken part to a printed replacement at your door — five simple steps."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Let's recreate your part",
+    "description": "Send us a photo of your broken part through your preferred channel and we'll reply with the next steps and a free quote.",
+    "responseNote": "We usually reply within one business day. Please include clear photos and, if possible, the main measurements.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "description": "Best for detailed messages and attaching several photos."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "The quickest way to share photos and chat with us directly."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "description": "Prefer Telegram? Message us and send your photos there."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or may have moved.",
+    "cta": "Back to home"
+  }
+}

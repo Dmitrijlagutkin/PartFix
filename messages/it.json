@@ -1,0 +1,228 @@
+{
+  "Metadata": {
+    "defaultTitle": "PartFix — Ricambi personalizzati stampati in 3D",
+    "defaultDescription": "Ricreiamo ricambi in plastica introvabili a partire dalle tue foto, con modellazione e produzione 3D professionale.",
+    "home": {
+      "title": "Ricambi personalizzati stampati in 3D",
+      "description": "Hai rotto un pezzo di plastica impossibile da trovare? Inviaci le foto e lo ricreiamo con modellazione e stampa 3D professionale. Spediamo in tutta Europa."
+    },
+    "howItWorks": {
+      "title": "Come funziona",
+      "description": "Dalla foto del tuo pezzo rotto al ricambio stampato a casa tua: ecco il nostro processo in cinque passaggi."
+    },
+    "contact": {
+      "title": "Contattaci",
+      "description": "Richiedi un preventivo gratuito via email, WhatsApp o Telegram. Inviaci una foto del pezzo rotto e pensiamo a tutto noi."
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Passa al tema scuro",
+    "toLight": "Passa al tema chiaro"
+  },
+  "A11y": {
+    "skipToContent": "Vai al contenuto"
+  },
+  "Nav": {
+    "primary": "Principale",
+    "brand": "PartFix — home",
+    "home": "Home",
+    "howItWorks": "Come funziona",
+    "contact": "Contatti",
+    "getQuote": "Preventivo gratuito",
+    "openMenu": "Apri il menu",
+    "closeMenu": "Chiudi il menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Cambia lingua",
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+  },
+  "Hero": {
+    "badge": "Progettazione e stampa 3D in tutta Europa",
+    "title": "Pezzo di plastica rotto?",
+    "subtitle": "Ricreiamo ricambi introvabili a partire dalle foto, con progettazione e produzione 3D professionale.",
+    "ctaPrimary": "Preventivo gratuito",
+    "ctaSecondary": "Scrivici su WhatsApp",
+    "trust": "Nessun account · Preventivo gratuito · Spedizioni in tutta l'UE",
+    "visualScan": "La tua foto",
+    "visualModel": "Modello 3D"
+  },
+  "Problem": {
+    "eyebrow": "Il problema",
+    "title": "Quando un piccolo pezzo rotto rovina tutto",
+    "description": "Una singola clip, ingranaggio o staffa incrinata può rendere inutilizzabile un elettrodomestico, un interno auto o un dispositivo — e il produttore ha smesso di vendere il ricambio anni fa.",
+    "points": [
+      {
+        "title": "Fuori produzione ed esaurito",
+        "description": "Il pezzo non è più prodotto, il modello è obsoleto, oppure non è mai stato venduto separatamente."
+      },
+      {
+        "title": "Ricerche infinite",
+        "description": "Settimane perse su forum e marketplace alla ricerca di un ricambio che semplicemente non esiste più."
+      },
+      {
+        "title": "Costretto a sostituire tutto",
+        "description": "Senza un minuscolo componente ti dicono di buttare un prodotto perfettamente funzionante e comprarne uno nuovo."
+      }
+    ]
+  },
+  "HowItWorksPreview": {
+    "imageAlt": "Una stampante 3D che produce ricambi in plastica arancione sul piano di stampa",
+    "eyebrow": "Come funziona",
+    "title": "Dalla foto al pezzo stampato in cinque passaggi",
+    "description": "Un processo semplice e trasparente. Tu invii qualche foto, noi ci occupiamo di progettazione e produzione.",
+    "cta": "Scopri l'intero processo"
+  },
+  "Process": {
+    "stepLabel": "Passaggio {number}",
+    "steps": [
+      {
+        "title": "Invia le foto del pezzo rotto",
+        "description": "Scatta alcune foto nitide da diverse angolazioni, comprese la parte rotta e il modo in cui si collega al resto."
+      },
+      {
+        "title": "Fornisci le misure",
+        "description": "Condividi le dimensioni principali con un righello o un calibro. Ti indichiamo esattamente cosa ci serve per un incastro preciso."
+      },
+      {
+        "title": "Ricreiamo il modello 3D",
+        "description": "I nostri ingegneri ricostruiscono il pezzo come modello CAD 3D preciso e producibile, confermando i dettagli con te."
+      },
+      {
+        "title": "Stampiamo il ricambio",
+        "description": "Stampiamo il tuo pezzo in 3D con un materiale resistente scelto per robustezza, calore e destinazione d'uso."
+      },
+      {
+        "title": "Te lo spediamo",
+        "description": "Il ricambio finito viene imballato con cura e spedito a casa tua in tutta Europa."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Servizi",
+    "title": "Tutto il necessario per far rinascere un pezzo",
+    "description": "Un servizio completo dalla prima foto al componente finito — senza bisogno di competenze CAD o attrezzature da parte tua.",
+    "items": [
+      {
+        "title": "Reverse engineering e modellazione 3D",
+        "description": "Ricostruiamo modelli CAD accurati e producibili a partire da foto e misure del pezzo originale."
+      },
+      {
+        "title": "Miglioramenti progettuali",
+        "description": "Dove l'originale cedeva, rinforziamo i punti deboli così il ricambio dura più a lungo del pezzo che sostituisce."
+      },
+      {
+        "title": "Stampa 3D professionale",
+        "description": "Produzione in materiali tecnici resistenti, con la finitura e le tolleranze giuste per un incastro perfetto."
+      },
+      {
+        "title": "Guida alle misurazioni",
+        "description": "Istruzioni chiare su come misurare per ottenere le dimensioni corrette al primo tentativo, senza tentativi alla cieca."
+      }
+    ]
+  },
+  "WhyUs": {
+    "imageAlt": "Una stampante 3D al lavoro in un'officina ben attrezzata",
+    "eyebrow": "Perché sceglierci",
+    "title": "Una lavorazione su cui puoi contare",
+    "description": "Trattiamo ogni pezzo come un piccolo progetto di ingegneria — preciso, durevole e a un prezzo equo.",
+    "items": [
+      {
+        "title": "Ingegneria di precisione",
+        "description": "Ricostruzione CAD accurata per pezzi che si incastrano e funzionano davvero."
+      },
+      {
+        "title": "Tempi rapidi",
+        "description": "La maggior parte dei progetti passa dal preventivo alla spedizione in pochi giorni."
+      },
+      {
+        "title": "Prezzi trasparenti",
+        "description": "Un preventivo chiaro e gratuito in anticipo — nessuna sorpresa e nessun obbligo."
+      },
+      {
+        "title": "Spedizioni in tutta Europa",
+        "description": "Consegnato a casa tua nell'UE, imballato con cura."
+      },
+      {
+        "title": "Materiali durevoli",
+        "description": "Plastiche tecniche selezionate per robustezza, resistenza al calore e durata."
+      },
+      {
+        "title": "Meno rifiuti",
+        "description": "Riparare invece di sostituire — mantieni in uso i prodotti che possiedi già."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Domande frequenti",
+    "description": "Tutto ciò che devi sapere prima di inviarci il tuo pezzo rotto.",
+    "items": [
+      {
+        "question": "Che tipo di pezzi potete ricreare?",
+        "answer": "Componenti in plastica piccoli e medi — clip, ingranaggi, staffe, manopole, involucri, cerniere e pezzi simili per elettrodomestici, auto, elettronica e oggetti per la casa."
+      },
+      {
+        "question": "Quanto costa?",
+        "answer": "Dipende dalla complessità e dalla dimensione del pezzo. Inviaci le foto e ti forniamo un preventivo gratuito e senza impegno prima di iniziare qualsiasi lavoro."
+      },
+      {
+        "question": "Quali foto e misure vi servono?",
+        "answer": "Foto nitide da varie angolazioni e le dimensioni principali misurate con righello o calibro. Dopo il contatto ti diremo esattamente cosa fotografare."
+      },
+      {
+        "question": "Quanto tempo richiede?",
+        "answer": "La maggior parte dei pezzi viene modellata, stampata e spedita in pochi giorni, a seconda della complessità e della coda attuale."
+      },
+      {
+        "question": "Il pezzo sarà resistente come l'originale?",
+        "answer": "Selezioniamo materiali tecnici durevoli e possiamo rinforzare le aree deboli, così i ricambi sono spesso resistenti quanto — o più — dell'originale."
+      },
+      {
+        "question": "Spedite fuori dal mio Paese?",
+        "answer": "Sì. Spediamo i ricambi ai clienti in tutta l'Unione Europea."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Riporta in vita il tuo pezzo",
+    "subtitle": "Inviaci oggi una foto del tuo pezzo rotto e ricevi un preventivo gratuito — senza account e senza impegno.",
+    "primary": "Preventivo gratuito",
+    "secondary": "Scrivici su WhatsApp"
+  },
+  "Footer": {
+    "tagline": "Ricreiamo ricambi in plastica introvabili a partire dalle tue foto, con modellazione e produzione 3D professionale.",
+    "navTitle": "Navigazione",
+    "contactTitle": "Contatti",
+    "copyright": "© {year} {name}. Tutti i diritti riservati."
+  },
+  "HowItWorksPage": {
+    "eyebrow": "Il processo",
+    "title": "Come funziona",
+    "description": "Dalla foto del tuo pezzo rotto al ricambio stampato a casa tua — cinque semplici passaggi."
+  },
+  "ContactPage": {
+    "eyebrow": "Contatti",
+    "title": "Ricreiamo il tuo pezzo",
+    "description": "Inviaci una foto del pezzo rotto tramite il canale che preferisci e ti risponderemo con i prossimi passi e un preventivo gratuito.",
+    "responseNote": "Di solito rispondiamo entro un giorno lavorativo. Includi foto nitide e, se possibile, le misure principali.",
+    "methods": {
+      "email": {
+        "label": "Email",
+        "description": "Ideale per messaggi dettagliati e per allegare più foto."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Il modo più rapido per condividere foto e parlare direttamente con noi."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "description": "Preferisci Telegram? Scrivici e inviaci lì le tue foto."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che stai cercando non esiste o potrebbe essere stata spostata.",
+    "cta": "Torna alla home"
+  }
+}

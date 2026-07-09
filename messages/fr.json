@@ -1,0 +1,228 @@
+{
+  "Metadata": {
+    "defaultTitle": "PartFix — Pièces de rechange sur mesure imprimées en 3D",
+    "defaultDescription": "Nous recréons des pièces plastiques introuvables à partir de vos photos, grâce à la conception et la fabrication 3D professionnelles.",
+    "home": {
+      "title": "Pièces de rechange sur mesure imprimées en 3D",
+      "description": "Une pièce en plastique cassée impossible à trouver ? Envoyez-nous des photos et nous la recréons par modélisation et impression 3D professionnelles. Expédition dans toute l'Europe."
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "description": "De la photo de votre pièce cassée à la pièce de rechange imprimée livrée chez vous — voici notre processus en cinq étapes."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Obtenez un devis gratuit par e-mail, WhatsApp ou Telegram. Envoyez-nous une photo de votre pièce cassée et nous nous occupons du reste."
+    }
+  },
+  "ThemeToggle": {
+    "toDark": "Passer au thème sombre",
+    "toLight": "Passer au thème clair"
+  },
+  "A11y": {
+    "skipToContent": "Aller au contenu"
+  },
+  "Nav": {
+    "primary": "Principale",
+    "brand": "PartFix — accueil",
+    "home": "Accueil",
+    "howItWorks": "Comment ça marche",
+    "contact": "Contact",
+    "getQuote": "Devis gratuit",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "LocaleSwitcher": {
+    "label": "Changer de langue",
+    "locale": "{locale, select, en {English} it {Italiano} de {Deutsch} fr {Français} es {Español} other {{locale}}}"
+  },
+  "Hero": {
+    "badge": "Conception et impression 3D dans toute l'Europe",
+    "title": "Pièce en plastique cassée ?",
+    "subtitle": "Nous recréons des pièces de rechange introuvables à partir de photos, grâce à la conception et la fabrication 3D professionnelles.",
+    "ctaPrimary": "Devis gratuit",
+    "ctaSecondary": "Discuter sur WhatsApp",
+    "trust": "Sans compte · Devis gratuit · Livraison dans toute l'UE",
+    "visualScan": "Votre photo",
+    "visualModel": "Modèle 3D"
+  },
+  "Problem": {
+    "eyebrow": "Le problème",
+    "title": "Quand une petite pièce cassée gâche tout",
+    "description": "Un seul clip, engrenage ou support fissuré peut rendre un appareil, un intérieur de voiture ou un produit inutilisable — et le fabricant a cessé de vendre la pièce il y a des années.",
+    "points": [
+      {
+        "title": "Arrêtée et en rupture",
+        "description": "La pièce n'est plus produite, le modèle est obsolète, ou elle n'a jamais été vendue séparément."
+      },
+      {
+        "title": "Recherches sans fin",
+        "description": "Des semaines perdues sur les forums et les marketplaces à chercher une pièce qui n'existe tout simplement plus."
+      },
+      {
+        "title": "Obligé de tout remplacer",
+        "description": "Faute d'un minuscule composant, on vous dit de jeter un produit en parfait état et d'en racheter un neuf."
+      }
+    ]
+  },
+  "HowItWorksPreview": {
+    "imageAlt": "Une imprimante 3D fabrique des pièces de rechange en plastique orange sur son plateau",
+    "eyebrow": "Comment ça marche",
+    "title": "De la photo à la pièce imprimée en cinq étapes",
+    "description": "Un processus simple et transparent. Vous envoyez quelques photos, nous gérons l'ingénierie et la fabrication.",
+    "cta": "Voir le processus complet"
+  },
+  "Process": {
+    "stepLabel": "Étape {number}",
+    "steps": [
+      {
+        "title": "Envoyez des photos de votre pièce cassée",
+        "description": "Prenez quelques photos nettes sous différents angles — y compris la zone cassée et la façon dont elle se raccorde au reste."
+      },
+      {
+        "title": "Fournissez les mesures",
+        "description": "Communiquez les dimensions clés avec une règle ou un pied à coulisse. Nous vous guidons sur ce dont nous avons besoin pour un ajustement précis."
+      },
+      {
+        "title": "Nous recréons le modèle 3D",
+        "description": "Nos ingénieurs reconstruisent la pièce en modèle CAO 3D précis et fabricable, et confirment les détails avec vous."
+      },
+      {
+        "title": "Nous imprimons la pièce",
+        "description": "Nous imprimons votre pièce en 3D dans un matériau résistant choisi selon la solidité, la chaleur et l'usage prévu."
+      },
+      {
+        "title": "Nous vous l'expédions",
+        "description": "Votre pièce de rechange terminée est soigneusement emballée et expédiée chez vous partout en Europe."
+      }
+    ]
+  },
+  "Services": {
+    "eyebrow": "Services",
+    "title": "Tout pour redonner vie à une pièce",
+    "description": "Un service complet de la première photo à la pièce finie — sans compétences CAO ni équipement de votre côté.",
+    "items": [
+      {
+        "title": "Rétro-ingénierie et modélisation 3D",
+        "description": "Nous reconstruisons des modèles CAO précis et fabricables à partir de photos et de mesures de votre pièce d'origine."
+      },
+      {
+        "title": "Améliorations de conception",
+        "description": "Là où l'original cédait, nous renforçons les points faibles pour que la pièce dure plus longtemps que celle qu'elle remplace."
+      },
+      {
+        "title": "Impression 3D professionnelle",
+        "description": "Fabrication dans des matériaux techniques résistants, avec la finition et les tolérances adaptées à un bon ajustement."
+      },
+      {
+        "title": "Guide de mesure",
+        "description": "Des instructions claires pour mesurer et obtenir les bonnes dimensions du premier coup, sans approximation."
+      }
+    ]
+  },
+  "WhyUs": {
+    "imageAlt": "Une imprimante 3D en action dans un atelier bien équipé",
+    "eyebrow": "Pourquoi nous choisir",
+    "title": "Un savoir-faire sur lequel compter",
+    "description": "Nous traitons chaque pièce comme un petit projet d'ingénierie — précis, durable et à un prix juste.",
+    "items": [
+      {
+        "title": "Ingénierie de précision",
+        "description": "Reconstruction CAO exacte pour des pièces qui s'ajustent et fonctionnent vraiment."
+      },
+      {
+        "title": "Délais rapides",
+        "description": "La plupart des projets passent du devis à la pièce expédiée en quelques jours."
+      },
+      {
+        "title": "Tarifs transparents",
+        "description": "Un devis clair et gratuit à l'avance — aucune surprise et aucun engagement."
+      },
+      {
+        "title": "Livraison dans toute l'Europe",
+        "description": "Livrée chez vous dans l'UE, soigneusement emballée."
+      },
+      {
+        "title": "Matériaux durables",
+        "description": "Plastiques techniques sélectionnés pour leur solidité, leur résistance à la chaleur et leur longevité."
+      },
+      {
+        "title": "Moins de déchets",
+        "description": "Réparer plutôt que remplacer — gardez en service les produits que vous possédez déjà."
+      }
+    ]
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "description": "Tout ce que vous devez savoir avant de nous envoyer votre pièce cassée.",
+    "items": [
+      {
+        "question": "Quels types de pièces pouvez-vous recréer ?",
+        "answer": "Des composants plastiques petits et moyens — clips, engrenages, supports, boutons, boîtiers, charnières et pièces similaires pour l'électroménager, l'automobile, l'électronique et la maison."
+      },
+      {
+        "question": "Combien ça coûte ?",
+        "answer": "Cela dépend de la complexité et de la taille de la pièce. Envoyez-nous des photos et nous vous fournissons un devis gratuit et sans engagement avant tout travail."
+      },
+      {
+        "question": "Quelles photos et mesures vous faut-il ?",
+        "answer": "Des photos nettes sous plusieurs angles ainsi que les dimensions principales mesurées avec une règle ou un pied à coulisse. Après votre prise de contact, nous vous dirons exactement quoi photographier."
+      },
+      {
+        "question": "Combien de temps cela prend-il ?",
+        "answer": "La plupart des pièces sont modélisées, imprimées et expédiées en quelques jours, selon la complexité et notre file d'attente."
+      },
+      {
+        "question": "La pièce sera-t-elle aussi solide que l'originale ?",
+        "answer": "Nous sélectionnons des matériaux techniques durables et pouvons renforcer les zones fragiles, si bien que les pièces sont souvent aussi solides — voire plus — que l'originale."
+      },
+      {
+        "question": "Livrez-vous hors de mon pays ?",
+        "answer": "Oui. Nous expédions des pièces de rechange aux clients dans toute l'Union européenne."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Redonnez vie à votre pièce",
+    "subtitle": "Envoyez-nous dès aujourd'hui une photo de votre pièce cassée et recevez un devis gratuit — sans compte, sans engagement.",
+    "primary": "Devis gratuit",
+    "secondary": "Discuter sur WhatsApp"
+  },
+  "Footer": {
+    "tagline": "Nous recréons des pièces plastiques introuvables à partir de vos photos, grâce à la conception et la fabrication 3D professionnelles.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "copyright": "© {year} {name}. Tous droits réservés."
+  },
+  "HowItWorksPage": {
+    "eyebrow": "Le processus",
+    "title": "Comment ça marche",
+    "description": "De la photo de votre pièce cassée à la pièce imprimée livrée chez vous — cinq étapes simples."
+  },
+  "ContactPage": {
+    "eyebrow": "Contact",
+    "title": "Recréons votre pièce",
+    "description": "Envoyez-nous une photo de votre pièce cassée via le canal de votre choix et nous vous répondrons avec les prochaines étapes et un devis gratuit.",
+    "responseNote": "Nous répondons généralement sous un jour ouvré. Merci de joindre des photos nettes et, si possible, les principales mesures.",
+    "methods": {
+      "email": {
+        "label": "E-mail",
+        "description": "Idéal pour les messages détaillés et joindre plusieurs photos."
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "description": "Le moyen le plus rapide de partager des photos et d'échanger directement avec nous."
+      },
+      "telegram": {
+        "label": "Telegram",
+        "description": "Vous préférez Telegram ? Écrivez-nous et envoyez-y vos photos."
+      }
+    }
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a peut-être été déplacée.",
+    "cta": "Retour à l'accueil"
+  }
+}
