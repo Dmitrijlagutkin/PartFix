@@ -1,4 +1,5 @@
-import { Mail, MessageCircle, Send } from "lucide-react";
+// MessageCircle & Send are used by the commented-out WhatsApp/Telegram links below.
+import { Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { contactLinks, siteConfig } from "@/shared/constants/site";
@@ -53,6 +54,7 @@ export function Footer() {
                     {siteConfig.contact.email}
                   </a>
                 </li>
+                {/* TODO: uncomment WhatsApp & Telegram once the accounts are live.
                 <li>
                   <a
                     href={contactLinks.whatsapp}
@@ -75,6 +77,7 @@ export function Footer() {
                     Telegram
                   </a>
                 </li>
+                */}
               </ul>
             </div>
           </div>

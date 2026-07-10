@@ -1,4 +1,4 @@
-import { MessageCircle, Sparkles } from "lucide-react";
+import { Mail, Sparkles } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { contactLinks } from "@/shared/constants/site";
@@ -43,10 +43,10 @@ export function Hero() {
           <Link href="/contact" className={buttonVariants({ size: "lg" })}>
             {t("ctaPrimary")}
           </Link>
+          {/* TODO: switch back to WhatsApp once the account is live:
+              href={contactLinks.whatsapp} with target/rel and <MessageCircle /> */}
           <a
-            href={contactLinks.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={contactLinks.email}
             className={buttonVariants({
               variant: "outline",
               size: "lg",
@@ -54,7 +54,7 @@ export function Hero() {
                 "border-white/25 bg-white/10 text-white backdrop-blur-sm hover:bg-white/20",
             })}
           >
-            <MessageCircle aria-hidden className="size-5" />
+            <Mail aria-hidden className="size-5" />
             {t("ctaSecondary")}
           </a>
         </div>

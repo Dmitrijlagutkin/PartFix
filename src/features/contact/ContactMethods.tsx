@@ -1,4 +1,5 @@
-import { ArrowUpRight, Mail, MessageCircle, Send } from "lucide-react";
+// MessageCircle & Send are used by the commented-out WhatsApp/Telegram methods below.
+import { ArrowUpRight, Mail } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { contactLinks, siteConfig } from "@/shared/constants/site";
 import { cn } from "@/shared/lib/cn";
@@ -21,29 +22,31 @@ const METHODS: Method[] = [
     Icon: Mail,
     accent: "bg-brand-500/10 text-brand-500",
   },
-  {
-    key: "whatsapp",
-    href: contactLinks.whatsapp,
-    value: "WhatsApp",
-    external: true,
-    Icon: MessageCircle,
-    accent: "bg-emerald-500/10 text-emerald-500",
-  },
-  {
-    key: "telegram",
-    href: contactLinks.telegram,
-    value: `@${siteConfig.contact.telegram}`,
-    external: true,
-    Icon: Send,
-    accent: "bg-sky-500/10 text-sky-500",
-  },
+  // TODO: uncomment WhatsApp & Telegram once the accounts are live.
+  // {
+  //   key: "whatsapp",
+  //   href: contactLinks.whatsapp,
+  //   value: "WhatsApp",
+  //   external: true,
+  //   Icon: MessageCircle,
+  //   accent: "bg-emerald-500/10 text-emerald-500",
+  // },
+  // {
+  //   key: "telegram",
+  //   href: contactLinks.telegram,
+  //   value: `@${siteConfig.contact.telegram}`,
+  //   external: true,
+  //   Icon: Send,
+  //   accent: "bg-sky-500/10 text-sky-500",
+  // },
 ];
 
 export function ContactMethods() {
   const t = useTranslations("ContactPage.methods");
 
+  // TODO: restore `max-w-3xl … sm:grid-cols-3` when WhatsApp/Telegram return.
   return (
-    <div className="mx-auto grid max-w-3xl gap-4 sm:grid-cols-3">
+    <div className="mx-auto grid max-w-md gap-4">
       {METHODS.map(({ key, href, value, external, Icon, accent }) => (
         <a
           key={key}

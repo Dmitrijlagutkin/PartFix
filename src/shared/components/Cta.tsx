@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { Mail } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { contactLinks } from "@/shared/constants/site";
 import { buttonVariants } from "@/shared/ui/Button";
@@ -30,17 +30,17 @@ export function Cta({ title, subtitle, primaryLabel, secondaryLabel }: CtaProps)
               <Link href="/contact" className={buttonVariants({ variant: "primary", size: "lg" })}>
                 {primaryLabel}
               </Link>
+              {/* TODO: switch back to WhatsApp once the account is live:
+                  href={contactLinks.whatsapp} with target/rel and <MessageCircle /> */}
               <a
-                href={contactLinks.whatsapp}
-                target="_blank"
-                rel="noopener noreferrer"
+                href={contactLinks.email}
                 className={buttonVariants({
                   variant: "outline",
                   size: "lg",
                   className: "border-white/20 bg-white/5 text-white hover:bg-white/10",
                 })}
               >
-                <MessageCircle aria-hidden className="size-5" />
+                <Mail aria-hidden className="size-5" />
                 {secondaryLabel}
               </a>
             </div>
