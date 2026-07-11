@@ -208,7 +208,10 @@
     "methods": {
       "email": {
         "label": "Correo",
-        "description": "Ideal para mensajes detallados y adjuntar varias fotos."
+        "description": "Ideal para mensajes detallados y adjuntar varias fotos.",
+        "copy": "Copiar correo",
+        "copied": "¡Copiado!",
+        "open": "Abrir app de correo"
       },
       "whatsapp": {
         "label": "WhatsApp",
@@ -218,6 +221,23 @@
         "label": "Telegram",
         "description": "¿Prefieres Telegram? Escríbenos y envía tus fotos allí."
       }
+    },
+    "orReachUs": "¿Prefieres el correo? Contáctanos directamente:",
+    "form": {
+      "nameLabel": "Tu nombre",
+      "namePlaceholder": "Juan Pérez",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Describe la pieza que necesitas y pega un enlace a una foto si la tienes.",
+      "submit": "Enviar mensaje",
+      "submitting": "Enviando…",
+      "successTitle": "¡Mensaje enviado!",
+      "successBody": "Gracias por escribirnos — te responderemos en un día hábil.",
+      "sendAnother": "Enviar otro",
+      "errorBody": "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
+      "privacyNote": "Solo usamos tus datos para responder a tu consulta.",
+      "emailSubject": "Nueva consulta desde el sitio de PartFix"
     }
   },
   "NotFound": {

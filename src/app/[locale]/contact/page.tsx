@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { ContactForm } from "@/features/contact/ContactForm";
 import { ContactMethods } from "@/features/contact/ContactMethods";
 import type { Locale } from "@/i18n/routing";
 import { buildMetadata } from "@/shared/lib/seo";
@@ -35,8 +36,12 @@ export default async function ContactPage({ params }: PageProps) {
         description={t("description")}
       />
       <div className="mt-14">
-        <ContactMethods />
+        <ContactForm />
       </div>
+      <p className="mx-auto mt-10 mb-10 max-w-2xl text-center text-sm text-muted">
+        {t("orReachUs")}
+      </p>
+      <ContactMethods />
       <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-muted">{t("responseNote")}</p>
     </Section>
   );

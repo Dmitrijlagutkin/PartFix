@@ -30,3 +30,11 @@ export const contactLinks = {
   whatsapp: `https://wa.me/${siteConfig.contact.whatsapp}`,
   telegram: `https://t.me/${siteConfig.contact.telegram}`,
 } as const;
+
+/**
+ * Web3Forms access key powers the static contact form (no backend required).
+ * It is a public routing key — safe to expose client-side — so we read it from
+ * a `NEXT_PUBLIC_` env var. Get a free key at https://web3forms.com and set
+ * `NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY` in `.env.local` / Vercel project settings.
+ */
+export const web3formsAccessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ?? "";

@@ -208,7 +208,10 @@
     "methods": {
       "email": {
         "label": "E-mail",
-        "description": "Idéal pour les messages détaillés et joindre plusieurs photos."
+        "description": "Idéal pour les messages détaillés et joindre plusieurs photos.",
+        "copy": "Copier l'e-mail",
+        "copied": "Copié !",
+        "open": "Ouvrir la messagerie"
       },
       "whatsapp": {
         "label": "WhatsApp",
@@ -218,6 +221,23 @@
         "label": "Telegram",
         "description": "Vous préférez Telegram ? Écrivez-nous et envoyez-y vos photos."
       }
+    },
+    "orReachUs": "Vous préférez l'e-mail ? Contactez-nous directement :",
+    "form": {
+      "nameLabel": "Votre nom",
+      "namePlaceholder": "Jean Dupont",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez la pièce dont vous avez besoin et collez un lien vers une photo si possible.",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours…",
+      "successTitle": "Message envoyé !",
+      "successBody": "Merci de nous avoir contactés — nous vous répondrons sous un jour ouvré.",
+      "sendAnother": "En envoyer un autre",
+      "errorBody": "Une erreur s'est produite. Veuillez réessayer ou nous écrire directement.",
+      "privacyNote": "Nous utilisons vos coordonnées uniquement pour répondre à votre demande.",
+      "emailSubject": "Nouvelle demande depuis le site PartFix"
     }
   },
   "NotFound": {

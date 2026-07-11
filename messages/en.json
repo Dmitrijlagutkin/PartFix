@@ -208,7 +208,10 @@
     "methods": {
       "email": {
         "label": "Email",
-        "description": "Best for detailed messages and attaching several photos."
+        "description": "Best for detailed messages and attaching several photos.",
+        "copy": "Copy email",
+        "copied": "Copied!",
+        "open": "Open mail app"
       },
       "whatsapp": {
         "label": "WhatsApp",
@@ -218,6 +221,23 @@
         "label": "Telegram",
         "description": "Prefer Telegram? Message us and send your photos there."
       }
+    },
+    "orReachUs": "Prefer email? Reach us directly:",
+    "form": {
+      "nameLabel": "Your name",
+      "namePlaceholder": "Jane Doe",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Describe the part you need and paste a photo link if you have one.",
+      "submit": "Send message",
+      "submitting": "Sending…",
+      "successTitle": "Message sent!",
+      "successBody": "Thanks for reaching out — we'll get back to you within one business day.",
+      "sendAnother": "Send another",
+      "errorBody": "Something went wrong. Please try again or email us directly.",
+      "privacyNote": "We only use your details to reply to your enquiry.",
+      "emailSubject": "New enquiry from the PartFix website"
     }
   },
   "NotFound": {
