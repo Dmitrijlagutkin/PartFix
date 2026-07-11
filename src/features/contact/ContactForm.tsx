@@ -2,12 +2,16 @@
 
 import { Loader2, Send } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { type FormEvent, useState } from "react";
+import { type ComponentProps, useState } from "react";
 import { siteConfig, web3formsAccessKey } from "@/shared/constants/site";
 import { cn } from "@/shared/lib/cn";
 import { buttonVariants } from "@/shared/ui/Button";
 
 type Status = "idle" | "submitting" | "success" | "error";
+
+// React 19 deprecated the `FormEvent` alias; derive the handler's event type
+// from the form element's own `onSubmit` prop instead.
+type FormSubmitEvent = Parameters<NonNullable<ComponentProps<"form">["onSubmit"]>>[0];
 
 const fieldClass = cn(
   "w-full rounded-xl border border-border bg-surface px-4 py-3 text-sm text-ink",
@@ -24,7 +28,7 @@ export function ContactForm() {
   const t = useTranslations("ContactPage.form");
   const [status, setStatus] = useState<Status>("idle");
 
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+  async function onSubmit(event: FormSubmitEvent) {
     event.preventDefault();
     const form = event.currentTarget;
     const data = new FormData(form);
