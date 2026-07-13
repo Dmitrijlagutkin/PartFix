@@ -1,5 +1,5 @@
-// MessageCircle & Send are used by the commented-out WhatsApp/Telegram methods below.
-import { ArrowUpRight, Mail } from "lucide-react";
+// Send is used by the commented-out Telegram method below.
+import { ArrowUpRight, Mail, MessageCircle } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { contactLinks, siteConfig } from "@/shared/constants/site";
 import { cn } from "@/shared/lib/cn";
@@ -9,7 +9,7 @@ export function ContactMethods() {
   const t = useTranslations("ContactPage.methods");
 
   return (
-    <div className="mx-auto grid max-w-md gap-4">
+    <div className="mx-auto grid max-w-2xl gap-4 sm:grid-cols-2">
       <div className="flex flex-col gap-4 rounded-2xl border border-border bg-surface p-6 shadow-soft">
         <span className="flex items-center justify-between">
           <span
@@ -42,8 +42,34 @@ export function ContactMethods() {
         </span>
       </div>
 
-      {/* TODO: restore WhatsApp & Telegram cards (with `max-w-3xl … sm:grid-cols-3`
-          on the wrapper) once those accounts are live. */}
+      <a
+        href={contactLinks.whatsapp}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group flex flex-col gap-4 rounded-2xl border border-border bg-surface p-6 shadow-soft transition-shadow hover:shadow-card"
+      >
+        <span className="flex items-center justify-between">
+          <span
+            className={cn(
+              "flex size-11 items-center justify-center rounded-xl",
+              "bg-emerald-500/10 text-emerald-500",
+            )}
+          >
+            <MessageCircle aria-hidden className="size-5" />
+          </span>
+          <ArrowUpRight
+            aria-hidden
+            className="size-5 text-muted transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
+          />
+        </span>
+        <span>
+          <span className="block font-semibold">{t("whatsapp.label")}</span>
+          <span className="mt-1 block text-sm text-muted">{t("whatsapp.description")}</span>
+        </span>
+      </a>
+
+      {/* TODO: restore the Telegram card (bump the wrapper to `max-w-3xl …
+          sm:grid-cols-3`) once that account is live. */}
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { ContactForm } from "@/features/contact/ContactForm";
+// Contact form hidden until the site is indexed — restore the import and the
+// <ContactForm /> block below to bring it back.
+// import { ContactForm } from "@/features/contact/ContactForm";
 import { ContactMethods } from "@/features/contact/ContactMethods";
 import type { Locale } from "@/i18n/routing";
 import { buildMetadata } from "@/shared/lib/seo";
@@ -35,13 +37,18 @@ export default async function ContactPage({ params }: PageProps) {
         title={t("title")}
         description={t("description")}
       />
+      {/* Contact form hidden until the site is indexed — restore this block
+          (and the import above) to bring it back.
       <div className="mt-14">
         <ContactForm />
       </div>
       <p className="mx-auto mt-10 mb-10 max-w-2xl text-center text-sm text-muted">
         {t("orReachUs")}
       </p>
-      <ContactMethods />
+      */}
+      <div className="mt-14">
+        <ContactMethods />
+      </div>
       <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-muted">{t("responseNote")}</p>
     </Section>
   );
